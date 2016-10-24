@@ -17,7 +17,8 @@ To do this simply use ||||| git init |||||
 To add file to the staging area - git add
 To remove it from there - git remove
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
 
 Working directory consists off all files, that are in the repository,
 but if you`d like to change and commit not all of them, you need to add
@@ -34,6 +35,47 @@ commit - use ||| git diff --staged |||
 
 git reset --hard will cancel all changes in WORKING and STAGING areas both. 	
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per 
+logical change?
 
-Everything in changing area can be compared to the last recent commit. So we will see if it was one logical step per change.
+Everything in changing area can be compared to the last recent commit. 
+So we will see if it was one logical step per change.
+
+_________________________________________________
+
+	B R A N C H E S
+_________________________________________________
+
+To output all the branches: git branch
+To create new branch: git branch branch-name;
+Change the branch - git checkout branch-name
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+If you want to try something new, add functionality or make a version in 
+another language - branches are very useful. Because they are copying your project,
+and you can feel free making whatever you want with the code. Adding, deleting and
+other staff - it will only have influence on this branch, but not on the particular
+project.
+
+To see all changings in the branches we can use 
+||| git log --graph --oneline master coins |||
+This will output
+
+How do the diagrams help you visualize the branch structure?
+
+It help to visualize where the feature was started creating, so it would be easier
+to find whether some changes from master branch were already included, or not.
+
+_________________________________________________
+
+	M E R G E
+_________________________________________________
+
+Merging to different branches can be done by git merge branch_1 branch_2.
+All commits would be sorted by the time and date of creating.
+
+To see changes in some commit that is followed with not parental commit,
+but from another branch, we can use ||| git show commit_id |||
+Whis command will show all changes, im comparison to the parental commit.
