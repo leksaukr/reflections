@@ -1,4 +1,4 @@
-To creatr a git repository in already existing folder
+To create a git repository in already existing folder
 use ------git init--------- then, if you`ll use |ls -a|
 it will show .git folder inside it, means that this is
 already a git repository.
@@ -12,3 +12,17 @@ What happens when you initialize a repository? Why do you need to do it?
 The folder .git folder is added to the parental directory. This folder
 contains all metadata that makes possible to user get more old commits.
 To do this simply use ||||| git init |||||
+
+
+To add file to the staging area - git add
+To remove it from there - git remove
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory consists off all files, that are in the repository,
+but if you`d like to change and commit not all of them, you need to add
+them to the staging area. It plays a buffer`s role, before files
+would be committed.
+
+
+Hello again, bitch
