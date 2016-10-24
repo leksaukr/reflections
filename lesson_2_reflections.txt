@@ -26,3 +26,14 @@ would be committed.
 
 If you want to compare original files and the ones in the staging area -
 use ||| git diff ||| without any arguments.
+You can use above function before you will add it to staging area.
+In other case it will return nothing.
+
+If you want to compare files in staging area with the one in most recent
+commit - use ||| git diff --staged |||
+
+git reset --hard will cancel all changes in WORKING and STAGING areas both. 	
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Everything in changing area can be compared to the last recent commit. So we will see if it was one logical step per change.
