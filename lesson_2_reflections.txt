@@ -1,0 +1,14 @@
+To creatr a git repository in already existing folder
+use ------git init--------- then, if you`ll use |ls -a|
+it will show .git folder inside it, means that this is
+already a git repository.
+
+git status is to get info about commit you are now in, and
+also about all changings which happened in this commit.
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+The folder .git folder is added to the parental directory. This folder
+contains all metadata that makes possible to user get more old commits.
+To do this simply use ||||| git init |||||

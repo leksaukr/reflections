@@ -1,0 +1,74 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Well, first I need to admit that to comare two files I can with Linux build 
+command "diff -u 1-st file 2-nd file". -u is using to get more clear output.
+Without it, output is a such kind of a mess.
+
+	Diff will output fileparts that differs one from another. And than you can 
+	easily see, if it was just some adding to the file or typo. This will bring 
+	you to the more faster way of problem locating.
+
+__________________________
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You would be able to see every step of your programm changing. And if bug
+    occurs, it would be much more easily to locate on which step it happened.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros and cons.
+    
+    Google docs.
+    + : nothing would be lost. Everything is goin to be saved. All input.
+    	Even if machine would stop, staying out of power - google`s servers
+    	will save it instead of you.
+    - : if some typo was done or bug happened, or even not correct algorythm
+    	and code was inputted - it would be just impossible to find it by version.
+    	You would be forced to parse through every line of code, or in the worst
+    	case - delete everything, and start from the bedinning.
+
+    Git.
+    + : you will have versions of your file which can be logically saved. The
+    	correct algorythm should be as follows: function`s implementation, checking,
+    	saving a version, and next, and next. In this case, even if something would
+    	be broken - you allways can come back and check particular version of broken
+    	instrument.
+    - : iw will not be saved automatically, as Google Docs will do. But probably,
+    	sometimes, it would bring to the good =).
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Google Docs was not designed to work with code, as Git.
+    In one commit could be pleanty of files, which need to be runned, thus
+    it is required to have a lot of them, if they are needed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log, while is used inside the directory, where commits were done, will
+    show all the history of changings, including commit`s ids, dates and time
+    git log --stat will add to output some statistics, to show which files was
+    changed in the commit.
+
+    git diff is the same, as Linux`s diff, but instead of filenames we need to
+    insert commits` ids. 
+    To get particular commit`s changings - first argument should be the the previous
+    one commit, and the second one - this particular.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	To copy some of repositories, use - git clone URL of the repository
+	To return to some previous commit, use - git checkout commit`s id
+
+    I would be able to compare two commits, tha one which has no break, and
+    other that does. Then it is easy to locate a problem and fix it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Building a big a website with much of different pages.
