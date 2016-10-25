@@ -1,4 +1,4 @@
-To see remotes, use ||| git remote |||
+To see all remotes of the repository, use ||| git remote |||
 To see more info about remotes, use ||| git -v remote |||
 To add remote, use ||| git remote add name_of_remote(origin if it
 is just one) URL_from_github |||
