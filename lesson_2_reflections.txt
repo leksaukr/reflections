@@ -73,9 +73,36 @@ _________________________________________________
 	M E R G E
 _________________________________________________
 
-Merging to different branches can be done by git merge branch_1 branch_2.
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+Merging to different branches can be done by 
+-------------------------------------------
+git merge branch_to_add branch_to_where_add
+-------------------------------------------
 All commits would be sorted by the time and date of creating.
 
 To see changes in some commit that is followed with not parental commit,
 but from another branch, we can use ||| git show commit_id |||
 Whis command will show all changes, im comparison to the parental commit.
+
+After merge OLD BRANCH IS NOT NEEDED anymore, so could be deleted.
+Deletion is making by:
+________________________________________________
+
+git branch -d branch_name
+________________________________________________
+
+In case of merge conflict please - open the file with text editor and
+look it through. Git has already added special symbols to show where the
+problem occured.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros:
+	- you do not need to copy every line of code if the are not in conflict
+	- you are informed about a conflict, then you can just focuse on conflict
+	solving staff
+Cons:
+	- none.
