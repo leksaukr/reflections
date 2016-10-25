@@ -5,3 +5,10 @@ is just one) URL_from_github |||
 
 To send data to github, use ||| git push remote_name branch_to_push_name |||
 
+When would you want to use a remote repository rather than keeping all your work local?
+
+When I`m working from different computers, or if I`m interested
+in someone`s project, and proposing some feature to them to add.
+
+Or if some minor changes need to be done, and I have no working machine close to me,
+it would be ok to use remote, and check everything later.
