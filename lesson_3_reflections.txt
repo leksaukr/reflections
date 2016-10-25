@@ -15,3 +15,12 @@ in someone`s project, and proposing some feature to them to add.
 
 Or if some minor changes need to be done, and I have no working machine close to me,
 it would be ok to use remote, and check everything later.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Probably, it is not a good idea to push files to the GitHub, when you have your
+feature uncomplited or not working yet, so you`d like to work it through untill sharing.
+
+After sharing, some people or collegues pobably will insert some changes and add files.
+It will possible break your logic of acting, or even will cause program`s crash. So, automtic
+back-up is not logical, because you need to check this files first.
