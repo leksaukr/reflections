@@ -28,3 +28,13 @@ feature uncomplited or not working yet, so you`d like to work it through untill 
 After sharing, some people or collegues pobably will insert some changes and add files.
 It will possible break your logic of acting, or even will cause program`s crash. So, automtic
 back-up is not logical, because you need to check this files first.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork is an instrument of GitHub. You can forks just inside the Hub. So, you can "clone"
+two different repositories on the webpage.
+You can clone something from the Github to your local repository or to clone your own
+reps. From one local to another.
+And branches to the last. Creating them is the method to try to implement some new features.
+They are done inside reps, without any differece they are on the local or github rep.
