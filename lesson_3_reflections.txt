@@ -1,0 +1,7 @@
+To see remotes, use ||| git remote |||
+To see more info about remotes, use ||| git -v remote |||
+To add remote, use ||| git remote add name_of_remote(origin if it
+is just one) URL_from_github |||
+
+To send data to github, use ||| git push remote_name branch_to_push_name |||
+
